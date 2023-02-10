@@ -1,7 +1,22 @@
-body {
-    background: rgb(105, 195, 255);
-    padding: 3em;
+h1 {
+    font-family: 'Lora', serif;
+}
+h2 {
+    font-family: 'Lora', serif;
+}
+h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
-
-a {colour: hotpink}
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+ul {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background: rgb(230, 232, 255);
+    padding: 3em;
+}
