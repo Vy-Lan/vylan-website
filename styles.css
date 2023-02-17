@@ -23,7 +23,7 @@ ul {
 }
 
 body {
-    background: rgb(194, 192, 255);;
+    background: #947db7;;
     padding: 3em;
 }
 
@@ -48,13 +48,29 @@ body {
 }
 
 .box-two {
-    background: rgb(235, 254, 253);
+    background: rgb(193, 177, 255);
     margin: 0 2% 0 0;
     padding: 2%;
 }
 
 .box-three {
-    background: rgb(235, 254, 253);
+    background: rgb(193, 177, 255);
     margin: 0 0 0 2%;
     padding: 2%;
 }
+
+/* Media Queries for devices 768px and down */
+@media only screen and (max-width: 768px) {
+    .container-two {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .box-two {
+        margin: 5% 0 0 0;
+    }
+
+    .box-three {
+        margin: 5% 0 0 0;
+    }
+    
